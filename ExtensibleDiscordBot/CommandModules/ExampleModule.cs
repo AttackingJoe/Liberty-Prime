@@ -11,7 +11,7 @@ namespace ExtensibleDiscordBot.CommandModules
         [Summary("This is the summary for the example command.")]
         public async Task Example(IGuildUser user)
         {
-            await ReplyAsync("Hi, I'm an example.");
+  
         }
 
         [Command("ping")]
