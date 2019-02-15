@@ -12,10 +12,7 @@ namespace ExtensibleDiscordBot.CommandModules
         [Summary("This is the summary for the example command.")]
         public async Task communismbad()
         {
-            var u = Context.Message.Author;      // Or some other means of getting user_id
-            string msg = "I'm ready to play Tropico you fuck.";
-            await Discord.UserExtensions.SendMessageAsync(u, msg);
-        }
+await Context.Channel.SendMessageAsync("Communism BAD!")
 
     }
 }
